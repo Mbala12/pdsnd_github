@@ -7,7 +7,7 @@ This project has been on the 13th of September 2021
 The title of this project is Udacity Git Project
 
 ### Description
-Describe what your project is about and what it does
+This project helps you to understand how to use Git version control source locally and show how to later on host your project on Github platform to be able to also work on your project remotely.
 
 ### Files used
 Include the files used
