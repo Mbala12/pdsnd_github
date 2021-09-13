@@ -18,5 +18,9 @@ This is the list of relevant files used in this project:
 4. washington.csv : contains a bunch of data concerning the city of washington
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Here are some links for the reference:
+
+1. https://github.com/udacity/course-collaboration-travel-plans
+
+2. https://github.com/GoogleChrome/lighthouse
 
