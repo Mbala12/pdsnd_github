@@ -198,7 +198,7 @@ def user_stats(df, city):
         common_year = int(df_birth.mode()[0])
         print('The earliest year is ({}), the most recent year is ({}) and the most common year is ({})\n'.format(earliest_year, recent_year, common_year))
     else:
-        print('There is no gender type in washington city')
+        print('There is no gender type and birth year in washington city')
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
