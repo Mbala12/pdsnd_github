@@ -28,17 +28,6 @@ def get_filters():
         
         city = input('What is your city ?\t').lower()
         
-        #view_data = input("Would you like to view 5 rows of individual trip data ? Enter 'yes' or 'no'\t").lower()
-        #start_loc = 0
-        #end_loc = 5
-        #while view_data == 'yes':
-            #df = pd.read_csv(CITY_DATA[city])
-            #print(df.iloc[start_loc:end_loc])
-            #end_loc += 5
-            #view_data = input("Would you like to view other 5 rows ? Enter 'yes' or 'no'\t").lower()
-            #if view_data == 'no':
-                #break
-                #view_data = input("Would you like to view other 5 rows ? Enter 'yes' or 'no'\t").lower()
         """
         Asks user if he/she wants to display some data to have an idea of how the data is structured in the files based on a specific city.
 
