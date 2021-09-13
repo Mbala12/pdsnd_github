@@ -28,17 +28,6 @@ def get_filters():
         
         city = input('What is your city ?\t').lower()
         
-        #view_data = input("Would you like to view 5 rows of individual trip data ? Enter 'yes' or 'no'\t").lower()
-        #start_loc = 0
-        #end_loc = 5
-        #while view_data == 'yes':
-            #df = pd.read_csv(CITY_DATA[city])
-            #print(df.iloc[start_loc:end_loc])
-            #end_loc += 5
-            #view_data = input("Would you like to view other 5 rows ? Enter 'yes' or 'no'\t").lower()
-            #if view_data == 'no':
-                #break
-                #view_data = input("Would you like to view other 5 rows ? Enter 'yes' or 'no'\t").lower()
         """
         Asks user if he/she wants to display some data to have an idea of how the data is structured in the files based on a specific city.
 
@@ -209,7 +198,7 @@ def user_stats(df, city):
         common_year = int(df_birth.mode()[0])
         print('The earliest year is ({}), the most recent year is ({}) and the most common year is ({})\n'.format(earliest_year, recent_year, common_year))
     else:
-        print('There is no gender type in washington city')
+        print('There is no gender type and birth year in washington city')
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
